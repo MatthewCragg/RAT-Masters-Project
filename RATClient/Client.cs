@@ -20,11 +20,26 @@ internal class Program
         socket.Connect(iPEndPoint);
 
         //Send commands to the remote server
-        string command = "Connected to first server";
+        string command = "Server connection made.";
         byte[] commandBuffer = Encoding.ASCII.GetBytes(command);
         socket.Send(commandBuffer);
 
-        using (var file = File.Create("pricequote.txt")) ;
+        //Generatss the text file in root folder
+        using (var file = File.Create("genericfile.txt")) ;
+
+        //Gets the IP from the connection socket and writes to string
+        string localIP;
+        using (Socket Socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, 0))
+        {
+            IPEndPoint endPoint = socket.LocalEndPoint as IPEndPoint;
+            localIP = endPoint.Address.ToString();
+        }
+
+        //Copies IP to the text file in root folder
+        using (StreamWriter writer = new StreamWriter("genericfile.txt"))
+        {
+            writer.WriteLine(localIP);
+        }
 
 
             //Get response from server
@@ -33,7 +48,7 @@ internal class Program
         string response = Encoding.ASCII.GetString(responseBuffer, 0, receivedBytes);
 
         //Display response
-        Console.WriteLine("response");
+        Console.WriteLine("Client response.");
         Console.ReadLine();
 
         //Close socket
