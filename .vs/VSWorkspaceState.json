@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RATClient",
+    "\\RATServer"
   ],
   "PreviewInSolutionExplorer": false
 }

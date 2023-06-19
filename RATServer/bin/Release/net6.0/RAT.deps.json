@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RAT/1.0.0": {
+        "dependencies": {
+          "RATClient": "1.0.0"
+        },
+        "runtime": {
+          "RAT.dll": {}
+        }
+      },
+      "RATClient/1.0.0": {
+        "runtime": {
+          "RATClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RAT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RATClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

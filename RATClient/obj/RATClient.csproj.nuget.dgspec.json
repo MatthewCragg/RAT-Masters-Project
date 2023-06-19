@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matthew\\source\\repos\\RATClient\\RATClient.csproj": {}
+    "C:\\Users\\Matthew\\Source\\Repos\\NaysayerBK\\RAT-Masters-Project\\RATClient\\RATClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matthew\\source\\repos\\RATClient\\RATClient.csproj": {
+    "C:\\Users\\Matthew\\Source\\Repos\\NaysayerBK\\RAT-Masters-Project\\RATClient\\RATClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matthew\\source\\repos\\RATClient\\RATClient.csproj",
+        "projectUniqueName": "C:\\Users\\Matthew\\Source\\Repos\\NaysayerBK\\RAT-Masters-Project\\RATClient\\RATClient.csproj",
         "projectName": "RATClient",
-        "projectPath": "C:\\Users\\Matthew\\source\\repos\\RATClient\\RATClient.csproj",
+        "projectPath": "C:\\Users\\Matthew\\Source\\Repos\\NaysayerBK\\RAT-Masters-Project\\RATClient\\RATClient.csproj",
         "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matthew\\source\\repos\\RATClient\\obj\\",
+        "outputPath": "C:\\Users\\Matthew\\Source\\Repos\\NaysayerBK\\RAT-Masters-Project\\RATClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

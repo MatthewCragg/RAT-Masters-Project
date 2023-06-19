@@ -1,0 +1,5 @@
+C:\Users\Matthew\Desktop\VirtualAttacks\Client\RATClient.exe
+C:\Users\Matthew\Desktop\VirtualAttacks\Client\RATClient.dll
+C:\Users\Matthew\Desktop\VirtualAttacks\Client\RATClient.deps.json
+C:\Users\Matthew\Desktop\VirtualAttacks\Client\RATClient.runtimeconfig.json
+C:\Users\Matthew\Desktop\VirtualAttacks\Client\RATClient.pdb

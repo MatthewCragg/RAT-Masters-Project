@@ -1,0 +1,15 @@
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\bin\Release\net6.0\RATClient.exe
+C:\Users\Matthew\source\repos\NaysayerBK\RAT-Masters-Project\RATClient\bin\Release\net6.0\RATClient.deps.json
+C:\Users\Matthew\source\repos\NaysayerBK\RAT-Masters-Project\RATClient\bin\Release\net6.0\RATClient.runtimeconfig.json
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\bin\Release\net6.0\RATClient.dll
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\bin\Release\net6.0\RATClient.pdb
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.csproj.AssemblyReference.cache
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.AssemblyInfoInputs.cache
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.AssemblyInfo.cs
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.dll
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\refint\RATClient.dll
+C:\Users\Matthew\Source\Repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.pdb
+C:\Users\Matthew\source\repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\RATClient.genruntimeconfig.cache
+C:\Users\Matthew\source\repos\NaysayerBK\RAT-Masters-Project\RATClient\obj\Release\net6.0\ref\RATClient.dll

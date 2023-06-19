@@ -1,0 +1,10 @@
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RATClient.exe
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RAT.exe
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RATClient.deps.json
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RATClient.runtimeconfig.json
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RAT.dll
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RAT.deps.json
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RAT.runtimeconfig.json
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RAT.pdb
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RATClient.dll
+C:\Users\Matthew\Desktop\VirtualAttacks\ClientRAT\Server\RATClient.pdb
