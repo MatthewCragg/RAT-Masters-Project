@@ -41,9 +41,8 @@ internal class Program
             writer.WriteLine(localIP);
         }
 
-
-            //Get response from server
-            byte[] responseBuffer = new byte[1024];
+        //Get response from server
+        byte[] responseBuffer = new byte[1024];
         int receivedBytes = socket.Receive(responseBuffer);
         string response = Encoding.ASCII.GetString(responseBuffer, 0, receivedBytes);
 
