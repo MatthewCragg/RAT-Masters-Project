@@ -1,9 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\RATClient",
-    "\\RATServer"
+    ""
   ],
-  "SelectedNode": "\\RATServer\\Server.cs",
   "PreviewInSolutionExplorer": false
 }

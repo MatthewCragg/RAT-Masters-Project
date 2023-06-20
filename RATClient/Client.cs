@@ -5,10 +5,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Net.Http;
+
+
+
 
 internal class Program
 {
     private static Stream fullPath;
+
+    public static void DoGetHostEntry(IPAddress address)
+    {
+        IPHostEntry host = Dns.GetHostEntry(address);
+
+        Console.WriteLine($"GetHostEntry({address}) returns HostName: {host.HostName}");
+        Console.ReadLine();
+    }
+
 
     private static void Main(string[] args)
     {
@@ -23,6 +36,10 @@ internal class Program
         string command = "Server connection made.";
         byte[] commandBuffer = Encoding.ASCII.GetBytes(command);
         socket.Send(commandBuffer);
+
+        //Display response
+        Console.WriteLine("Client connected.");
+
 
         //Generatss the text file in root folder
         using (var file = File.Create("genericfile.txt")) ;
@@ -46,11 +63,21 @@ internal class Program
         int receivedBytes = socket.Receive(responseBuffer);
         string response = Encoding.ASCII.GetString(responseBuffer, 0, receivedBytes);
 
-        //Display response
-        Console.WriteLine("Client response.");
-        Console.ReadLine();
+        //Get machine name and post to client
+         Console.WriteLine("MachineName: {0}", Environment.MachineName);
+
+        //Gets and prints all IP addresses linked to machine
+        //  IPHostEntry hostInfo = Dns.GetHostByName("google.com");
+        //  Console.WriteLine("Client name : " + hostInfo.HostName);
+        //  Console.WriteLine("IP address List : ");
+        //  for (int index = 0; index < hostInfo.AddressList.Length; index++)
+        //  {
+        //      Console.WriteLine(hostInfo.AddressList[index]);
+        //   }
+
 
         //Close socket
+        Console.ReadLine();
         socket.Close();
     }
 }
