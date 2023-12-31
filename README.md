@@ -6,4 +6,4 @@ This project is related to the dissertation related to "How detectable are backd
 This application is created and written purely for academic use and is not meant for use in real world scenarios, and will be executed on isolated virtual 
 systems.
 
-THIS PROJECT WAS SUPERSEDED BY THE FOLLOWING https://github.com/MatthewCragg/DLL-Injection
+THIS PROJECT WAS REPLACED BY THE FOLLOWING https://github.com/MatthewCragg/DLL-Injection
